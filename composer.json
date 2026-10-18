@@ -1,0 +1,12 @@
+{
+  "name": "recursion/email-verification-system",
+  "description": "Signed URL email verification demo in PHP",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {"App\\": "src/"}
+  }
+}
